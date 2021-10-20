@@ -78,6 +78,6 @@ program Program
     end if
     write(*, *) "Integral = ", I
     open(unit = 2 , file="Output.txt")
-        write (2, *) "Integral = ", I 
+        write (2, *) "Integral = ", I
     close(unit = 2)
 end program Program
